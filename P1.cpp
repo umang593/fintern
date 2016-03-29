@@ -3,6 +3,8 @@
    College - IIT Mandi */
 // Objective - We focus on finding the minimum of the negative of the optimization equation
 // Source : http://www.coin-or.org/Cbc/cbcuserguide.html 
+// No Input Arguments 
+// Output- Optimal values of Variable X
 
 
 #include "OsiClpSolverInterface.hpp"                         // For taking Input from a file
