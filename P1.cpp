@@ -1,10 +1,11 @@
 /* Name - Umang Agarwal
    trade - CSE 
-   College - IIT Mandi */
-// Objective - We focus on finding the minimum of the negative of the optimization equation
-// Source : http://www.coin-or.org/Cbc/cbcuserguide.html 
-// No Input Arguments 
-// Output- Optimal values of Variable X
+   College - IIT Mandi 
+   Objective - We focus on finding the minimum of the negative of the optimization equation
+   Source : http://www.coin-or.org/Cbc/cbcuserguide.html 
+   No Input Arguments 
+   Output Arguments: (1) Values of Xi at Optimal(Maximum) value of equation described in question.mps as COST
+*/
 
 
 #include "OsiClpSolverInterface.hpp"                         // For taking Input from a file
