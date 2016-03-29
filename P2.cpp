@@ -1,13 +1,18 @@
 /* Name- Umang Agarwal
    Trade - CSE 
-    College - IIT Mandi */
+    College - IIT Mandi 
+  Problem Objective - Maximise Summation of PiXi 
+  Input Arguments - (1) No. Of variables n  (2) No. of constraints m (3) Values of Pi (4) Values of row constraints Rij
+                    (5) Values of b Vector 
+  Output Arguments - (1) Optimum Value of equation (2) Values of Xi at Optimum Value
+  */
 
 # include <iostream>
 # include <vector>
 # include <cmath>
 using namespace std ;
 
-void generator(int  *arr , int m , int n  ) // Function to compute permutations of variables and stored in arr
+void generator(int  *arr , int m , int n  ) // Function to compute permutation of variables and store in arr
 {
     int a[n] ;
     int dec=m  , i=0 ;
